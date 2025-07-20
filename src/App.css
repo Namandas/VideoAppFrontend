@@ -1,0 +1,75 @@
+.App {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(135deg, #e0e7ff 0%, #f0fdfa 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08), 0 1.5px 4px rgba(0,0,0,0.04);
+  border-radius: 18px;
+  padding: 2.5rem 2rem;
+  margin: 1.5rem 0;
+  max-width: 420px;
+  width: 100%;
+  transition: box-shadow 0.2s;
+}
+
+h1, h2, h3 {
+  color: #2d3748;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f8fafc;
+  transition: border 0.2s;
+}
+input:focus, select:focus {
+  border-color: #6366f1;
+  outline: none;
+}
+
+button {
+  background: linear-gradient(90deg, #6366f1 0%, #06b6d4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 2.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+  transition: background 0.2s, transform 0.1s;
+}
+button:hover, button:focus {
+  background: linear-gradient(90deg, #4f46e5 0%, #0ea5e9 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 8px;
+}
