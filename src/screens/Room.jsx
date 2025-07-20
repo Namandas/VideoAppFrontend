@@ -347,7 +347,7 @@ const RoomPage = () => {
           }
         }, 100);
       }
-    }, 5000);
+    }, 2000);
     return () => {
       try {
         if (mediaRecorderRef.current) {
